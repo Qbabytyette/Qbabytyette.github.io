@@ -53,6 +53,14 @@ h1
 	font-size: 8em;
 color: #00ccff;}
 
+h2 {
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
+}
+
 a {
   color: #0388a6; }
   a:hover {
