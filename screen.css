@@ -11,9 +11,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 30px;
   padding: 0;
-  border: 0;
+  border: 20px;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -22,7 +22,11 @@ body {
   line-height: 1; }
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  vertical-align: middle; }
 
 table {
   border-collapse: collapse;
@@ -45,23 +49,62 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-body {
-  font-family: sans-serif;
-  color: #2a2a2a; }
-h1 
-{
-	font-size: 8em;
-color: #00ccff;}
+  body {
+    font-family: sans-serif;
+    -webkit-align-content: center;
+  align-content: center;
+   
+  }
+  
+  .rainbow-box {
+    background-color: #ffffff;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    height: relative;
+    margin: 20px auto;
+    width: relative;
+}
 
-h2 {
+h1  {
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 8em;
+  -webkit-align-content: center;
+  align-content: center;
+  line-height: 145px
 }
 
+
+h2
+{
+  
+  align-content: center;
+  text-align: center;
+  font-weight: bold ;
+  vertical-align: middle;
+  border-style: solid linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+
+h3 {
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+p {
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  vertical-align: middle;
+
+
+}
 a {
+  
   color: #0388a6; }
   a:hover {
     color: #009ce0; }
