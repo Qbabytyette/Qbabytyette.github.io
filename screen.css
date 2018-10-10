@@ -113,8 +113,44 @@ a {
   padding: 50px; }
   
 
-
-
-
+  button
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#520266;
+    padding:10px 20px;
+    border: 2px solid #f92ab1;
+    cursor: pointer;
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    background:-webkit-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background:-moz-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    
+    -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    box-shadow:5px 5px 3px rgba(0,0,0,0.5);
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  button:hover
+  {
+    background: -webkit-linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+    background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+  }
+  
+  button:active
+  {
+    background: -webkit-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+  } 
 
   
