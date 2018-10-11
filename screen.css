@@ -19,7 +19,9 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  line-height: 1; 
+  background-color: black
+}
 
 ol, ul {
   list-style: none;
@@ -57,9 +59,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
   
   .rainbow-box {
-    background-color: #ffffff;
+    background-color: #00000000;
     border: 10px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image: linear-gradient(to bottom right, #b827fc 5%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
     height: relative;
     margin: 20px auto;
@@ -79,12 +81,15 @@ h1  {
 
 h2
 {
-  
+  font-size: 30px;
   align-content: center;
   text-align: center;
   font-weight: bold ;
   vertical-align: middle;
   border-style: solid linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -92,7 +97,11 @@ h3 {
   align-content: center;
   text-align: center;
   font-weight: normal;
+  font-size: 30px;
   vertical-align: middle;
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -100,14 +109,15 @@ p {
   text-align: center;
   font-weight: normal;
   vertical-align: middle;
+  color: white;
 
 
 }
 a {
   
-  color: #0388a6; }
+  color: #ffffff; }
   a:hover {
-    color: #009ce0; }
+    color: #ffffff; }
 
 #main {
   padding: 50px; }
@@ -126,9 +136,9 @@ a {
     -moz-border-radius: 10px;
     border-radius: 10px;
     
-    background:-webkit-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    background:-moz-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background:-webkit-radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
+    background:-moz-radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
+    background: radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
     
     -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
     -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
@@ -141,16 +151,16 @@ a {
   
   button:hover
   {
-    background: -webkit-linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
-    background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
+    background: -moz-radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
+    background: radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
   }
   
   button:active
   {
-    background: -webkit-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+    background: -webkit-radial-gradient(to bottom right, orange , yellow, green, cyan, blue, violet);
+    background: -moz-radial-gradient(to bottom right, orange , yellow, green, cyan, blue, violet);
+    background: radial-gradient(to bottom right, orange , yellow, green, cyan, blue, violet); 
   } 
 
   
