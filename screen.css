@@ -57,15 +57,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   align-content: center;
    
   }
+
+
   
   .rainbow-box {
     background-color: #00000000;
     border: 10px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 5%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
-    height: relative;
-    margin: 20px auto;
-    width: relative;
+    height: inherit;
+    margin: 20px;
+    padding: 10px;
+    width: inherit;
 }
 
 h1  {
@@ -76,7 +79,7 @@ h1  {
   -webkit-align-content: center;
   align-content: center;
   line-height: 145px
-}
+  }
 
 
 h2
@@ -126,7 +129,7 @@ a {
   button
   {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color:#520266;
     padding:10px 20px;
     border: 2px solid #f92ab1;
@@ -140,9 +143,9 @@ a {
     background:-moz-radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
     background: radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
     
-    -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
-    -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
-    box-shadow:5px 5px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 3px rgba(0, 255, 13);
+    -moz-box-shadow: 5px 5px 3px rgb(0, 255, 13);
+    box-shadow:5px 5px 3px rgba(0, 255, 13);
     
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -151,9 +154,9 @@ a {
   
   button:hover
   {
-    background: -webkit-radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
-    background: -moz-radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
-    background: radial-gradient(to bottom left, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-radial-gradient(to bottom left, orange , yellow, green, cyan, blue 5%, violet 5%);
+    background: -moz-radial-gradient(to bottom left, orange , yellow, green, cyan, blue 5%, violet 5%);
+    background: radial-gradient(to bottom left, orange , yellow, green, cyan, blue 5%, violet 5%);
   }
   
   button:active
