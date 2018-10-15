@@ -52,6 +52,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
   body {
+    text-align: center;
     font-family: sans-serif;
     -webkit-align-content: center;
   align-content: center;
