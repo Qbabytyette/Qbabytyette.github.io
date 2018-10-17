@@ -140,9 +140,9 @@ a {
     -moz-border-radius: 10px;
     border-radius: 10px;
     
-    background:-webkit-radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
-    background:-moz-radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
-    background: radial-gradient(circle, orange , yellow 5%, green 5%, cyan, blue, violet);
+    background:-webkit-radial-gradient(circle, green 5%, cyan, blue, violet);
+    background:-moz-radial-gradient(circle, green 5%, cyan, blue, violet);
+    background: radial-gradient(circle, green 5%, cyan, blue, violet);
     
     -webkit-box-shadow: 5px 5px 3px rgba(0, 255, 13);
     -moz-box-shadow: 5px 5px 3px rgb(0, 255, 13);
