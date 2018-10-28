@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <link href="../../screen.css" media="screen" rel="stylesheet" type="text/css" />
+<title>Oregon State University</title>
+<body style="text-align:center;">
+
+        <style>
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                /* Style the header */
+                header {
+                    background-color: #666;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 70px;
+                    color: white;
+                }
+                
+                /* Container for flexboxes */
+                section {
+                    display: -webkit-flex;
+                    display: flex;
+                }
+                
+                /* Style the navigation menu */
+                nav {
+                    -webkit-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+                    background: #ccc;
+                    padding: 20px;
+                }
+                
+                /* Style the list inside the menu */
+                nav ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                /* Style the content */
+                article {
+                    -webkit-flex: 3;
+                    -ms-flex: 3;
+                    flex: 3;
+                    background-color: #ccc;
+                    padding: 10px;
+                }
+                
+                /* Style the footer */
+                footer {
+                    background-color: #777;
+                    padding: 10px;
+                    text-align: center;
+                    color: white;
+                }
+                
+                /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+                @media (max-width: 600px) {
+                    section {
+                      -webkit-flex-direction: column;
+                      flex-direction: column;
+                    }
+                }
+                </style>
+
+<h1 style="text-align:center;"><img style="border-style: solid;border-width: 5px;"
+    src="osu_logo.png" height="" width="">
+</h1>
+<h2>There are answers everywhere. That’s why Oregon State University goes OUT THERE.</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<button> <a href="https://oregonstate.edu/"><strong>Oregon State University Website</strong></a></button>
+
+<header>
+  <h2>Graduate Programs</h2>
+</header>
+
+<section>
+ <div class="rainbow-box"><nav>
+    <ul>
+      <li><a href="https://gradschool.oregonstate.edu/programs">OSU Graduate Programs</a></li>
+      <li><a href="https://accessibility.oregonstate.edu/contacts">OSU Contact Information</a></li>
+      <li><a href="https://admissions.oregonstate.edu/apply-choose-application">Application For Tuition</a></li>
+    </ul>
+  </nav>
+</div>
+  
+  <div class="rainbow-box"><article>
+    
+    <h1 ><a href="https://www.youvisit.com/tour/oregonstate">Virtual Tour</a></h1>
+    <p>With steadfast determination, people from Oregon and around the globe gather to explore frontiers and solve today’s most pressing issues. 
+        Together, we innovate to deliver far-reaching solutions that guarantee the prosperity of our state and world, enriching the lives of all people. 
+        We transform learners into leaders. We are unwavering and accountable, because the world can count on us for a healthier, more sustainable future.</p>
+    <p></p>
+  </article>
+</div>
+</section>
+
+<div class="rainbow-box"><footer>
+  <p><img style="border-style: solid;border-width: 5px;"
+    src="beaver.jpg" height="" width=""></p>
+</footer></div>
+
+<button><a href="../../index.html">Main Page</a></button>
+</body>
+</html>
