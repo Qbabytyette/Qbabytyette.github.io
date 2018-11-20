@@ -72,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: inherit;
 }
 
-h1  {
+h1{
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -80,7 +80,7 @@ h1  {
   -webkit-align-content: center;
   align-content: center;
   line-height: 145px
-  }
+}
 
 
 h2
