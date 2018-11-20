@@ -73,13 +73,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 h1{
-  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 8em;
-  -webkit-align-content: center;
-  align-content: center;
-  line-height: 145px
 }
 
 
