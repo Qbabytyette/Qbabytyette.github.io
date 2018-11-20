@@ -11,9 +11,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 30px;
+  margin: 20px;
   padding: 0;
-  border: 20px;
+  border: 15px;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -53,7 +53,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 1.3em;
-    line-height: 2;
+    line-height: 1;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     text-align: center; 
@@ -124,9 +124,15 @@ a {
   color: #ffffff; }
   a:hover {
     color:white;}
+  a:link    {
+    text-decoration:  none; }
+  a:visited {
+    text-decoration:  none;}
+  a:active  {
+    text-decoration:  none;}
 
 #main {
-  padding: 35px; }
+  padding: 12px; }
   
 
   button
@@ -142,10 +148,11 @@ a {
     -moz-border-radius: 10px;
     border-radius: 10px;
     
-    background:-webkit-radial-gradient(circle, green 5%, cyan, blue, violet);
-    background:-moz-radial-gradient(circle, green 5%, cyan, blue, violet);
-    background: radial-gradient(circle, green 5%, cyan, blue, violet);
+    background: linear-gradient(208deg, #ff0000, #ff00ad, #d500ff, #7000ff, #00ffcd, #00ff68, #deff00, #ffbb00);
+    background: linear-gradient(208deg, #ff0000, #ff00ad, #d500ff, #7000ff, #00ffcd, #00ff68, #deff00, #ffbb00);
+    background: linear-gradient(208deg, #ff0000, #ff00ad, #d500ff, #7000ff, #00ffcd, #00ff68, #deff00, #ffbb00);
     
+
     -webkit-box-shadow: 5px 5px 3px rgba(0, 255, 13);
     -moz-box-shadow: 5px 5px 3px rgb(0, 255, 13);
     box-shadow:5px 5px 3px rgba(0, 255, 13);
